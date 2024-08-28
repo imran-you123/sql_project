@@ -50,7 +50,7 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10
 ```
-![Top paying roles table](assets\1_top_paying_jobs_table.png)
+![Top paying roles table](assets/1_top_paying_jobs_table.png)
 *resulting table from the above executed SQL query. Showing information related to job title, company name, location, schedule, salary and posted date.*
 
 The following provides a breakdown of the top paying data analyst jobs in 2023:
