@@ -58,7 +58,7 @@ The following provides a breakdown of the top paying data analyst jobs in 2023:
 - **Diverse Employers:** Companies offering those salaries included SmartAsset, Meta, and AT&T, showing a broad interest across industries
 - **Job Title Variety:** There is a diversity of different job titles from Data Analyst to Director of Analytics, which shows many different roles and specializations within the field of data analytics 
 
-![Top paying Roles Graph](assets\1_top_paying_jobs_graph.png)
+![Top paying Roles Graph](assets/1_top_paying_jobs_graph.png)
 *Bar Graph illustrates the top 10 highest paying data analyst roles, generated via excel from the SQL query result table above*
 
 ### 2. Skills for Top Paying Jobs
@@ -96,7 +96,7 @@ INNER JOIN
 ORDER BY
     salary_year_avg DESC
 ```
-![Top paying Roles table with skills](assets\2_top_paying_job_skills_table.png)
+![Top paying Roles table with skills](assets/2_top_paying_job_skills_table.png)
 *resulting table from the above executed SQL query. Showing information related to job id, title, company name, salary, and skills.*
 
 A breakdown of our results regarding the most in-demand skills for the top 10 highest paying data analyst jobs in 2023:
@@ -106,11 +106,11 @@ A breakdown of our results regarding the most in-demand skills for the top 10 hi
 - **Tableau** is third with a count of 6
 - Other high in demand skills include **R, Snowflake, Pandas, and Excel**
 
-![Top paying Roles with skill count](assets\2_top_paying_job_skills_count_tablepng.png) 
+![Top paying Roles with skill count](assets/2_top_paying_job_skills_count_tablepng.png) 
 
 *A pivot table created in Excel from the results table above showing the skills and their associated count*
 
-![Top paying Roles with skill count Graph](assets\2_top_paying_job_skills_graph.png) 
+![Top paying Roles with skill count Graph](assets/2_top_paying_job_skills_graph.png) 
 *A graph that visualizes skills count for the top 10 highest paying Data Analyst jobs, generated via Excel from the pivot table above.*
 
 ### 3. In-Demand Skills for Data Analysts
@@ -138,10 +138,10 @@ A brekadown of skills most in-demand for Data Analyst roles in 2023:
 - **SQL and Excel** are the most fundamental skills to learn, highlighting the need for people to be able to process and organize data.
 - **Python, Tableau and PowerBI** also cracked the list, highlighting the importance of knowing programming as well as data visualization tools for data storytelling.
 
-![top demanding Data Analyst skills table](assets\3_top_demanded_skills_table.png)
+![top demanding Data Analyst skills table](assets/3_top_demanded_skills_table.png)
 *Table shows top 5 skills mentioned in Data Analyst job postings*
 
-![top demanidng Data Analyst skills graph](assets\3_top_demanded_skills_graph.png)
+![top demanidng Data Analyst skills graph](assets/3_top_demanded_skills_graph.png)
 *Graph illustrating the top 5 most in-demnad Data Analyst skills*
 
 ### 4. Skills Based on Salary
@@ -166,7 +166,7 @@ ORDER BY
     avg_salary DESC
 LIMIT 25
 ```
-![Skills for top-paying Data Analyst roles](assets\4_top_skills_based_on_salary_table.png)
+![Skills for top-paying Data Analyst roles](assets/4_top_skills_based_on_salary_table.png)
 
 *Table showing the top highest paying skills for Data Analysts*
 
@@ -202,7 +202,7 @@ ORDER BY
     demand_count DESC 
 LIMIT 25;
 ```
-![optimal skills table](assets\5_optimal_skills.png)
+![optimal skills table](assets/5_optimal_skills.png)
 *Table which is sorted by salary illustrates the most optimal skills for Data Analysts*
 
 The following provides a breakdown of the results that were uncovered
